@@ -1,6 +1,6 @@
 # Begin with an action and a name
 name: First Workflow
-on: workflow-dispatch
+on: workflow_dispatch
 jobs:
   initial-job:
     runs-on: ubunti-lates # provide the environemnt to run this on
