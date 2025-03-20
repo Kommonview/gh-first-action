@@ -1,0 +1,12 @@
+# Begin with an action and a name
+name: First Workflow
+on: workflow-dispatch
+jobs:
+  initial-job:
+    runs-on: ubunti-lates # provide the environemnt to run this on
+    steps: # keyvalue pairs that runs this step
+      - name: Print greeting 
+        run: echo "Hellow Owlrd!"
+      - name: Print Goodbye
+        run: echo "We're done, Goodbye!"
+    
